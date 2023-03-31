@@ -1,0 +1,51 @@
+////////////////////////////////////////
+/// Style for the container of all plans
+
+.plansContainer {
+  margin-top: 4.7rem;
+  display: flex;
+  width: 78%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+////////////////////////////////////////
+/// Styling one Plan
+.planContainer {
+  width: 30%;
+  height: 17rem;
+  border: 1.5px solid hsl(229, 24%, 87%);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+
+  img {
+    width: 5rem;
+  }
+}
+
+.planContainer:hover {
+  border: 1.5px solid hsl(243, 100%, 62%);
+}
+
+.palnInfo {
+  display: flex;
+  flex-direction: column;
+
+  &__name {
+    color: hsl(213, 87%, 26%);
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    font-size: 1.7rem;
+  }
+
+  &__price {
+    color: hsl(231, 11%, 63%);
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+}

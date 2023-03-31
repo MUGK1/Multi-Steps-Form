@@ -1,0 +1,55 @@
+.btnsContainer {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+  //margin-top: 2rem;
+}
+
+.btnActive {
+  padding: 1.3rem 2.2rem;
+  font-family: "Ubuntu";
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  background-color: hsl(213, 92%, 20%);
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.btnActive:hover {
+  background-color: hsla(213, 92%, 20%, 0.89);
+  transform: scale(1.09);
+}
+
+.btnActive:active {
+  background-color: hsla(213, 92%, 20%, 0.671);
+  transform: scale(1.04);
+}
+
+.btnNotActive {
+  padding: 1.3rem 2.2rem;
+  font-family: "Ubuntu";
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(202, 209, 216);
+}
+
+.backBtn {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  color: hsl(231, 11%, 63%);
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.backBtn:hover {
+  color: hsl(213, 92%, 20%);
+}
