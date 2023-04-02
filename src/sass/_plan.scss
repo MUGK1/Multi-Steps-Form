@@ -26,11 +26,16 @@
   img {
     width: 5rem;
   }
+
+  &__active {
+    border: 1.5px solid hsl(243, 100%, 62%);
+  }
 }
 
 .planContainer:hover {
   border: 1.5px solid hsl(243, 100%, 62%);
 }
+
 
 .palnInfo {
   display: flex;
